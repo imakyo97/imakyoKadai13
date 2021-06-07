@@ -15,7 +15,7 @@
 		47607BD6266CE18E0056D39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47607BD5266CE18E0056D39E /* Assets.xcassets */; };
 		47607BD9266CE18E0056D39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47607BD7266CE18E0056D39E /* LaunchScreen.storyboard */; };
 		47607BE4266CF5A50056D39E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47607BE3266CF5A50056D39E /* ItemTableViewCell.swift */; };
-		47607BE6266CF6A00056D39E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47607BE5266CF6A00056D39E /* ItemCell.swift */; };
+		47607BE6266CF6A00056D39E /* CheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47607BE5266CF6A00056D39E /* CheckItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		47607BD8266CE18E0056D39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47607BDA266CE18E0056D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47607BE3266CF5A50056D39E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
-		47607BE5266CF6A00056D39E /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		47607BE5266CF6A00056D39E /* CheckItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckItem.swift; sourceTree = "<group>"; };
 		A25A64DF36E6729046BA3839 /* Pods-Kadai13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai13.debug.xcconfig"; path = "Target Support Files/Pods-Kadai13/Pods-Kadai13.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +100,7 @@
 		47607BE0266CF53E0056D39E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				47607BE5266CF6A00056D39E /* ItemCell.swift */,
+				47607BE5266CF6A00056D39E /* CheckItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,8 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		A2617F851F2C593D233C846A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -240,7 +239,7 @@
 				47607BD1266CE18E0056D39E /* ViewController.swift in Sources */,
 				47607BCD266CE18E0056D39E /* AppDelegate.swift in Sources */,
 				47607BCF266CE18E0056D39E /* SceneDelegate.swift in Sources */,
-				47607BE6266CF6A00056D39E /* ItemCell.swift in Sources */,
+				47607BE6266CF6A00056D39E /* CheckItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
