@@ -15,7 +15,11 @@
 		47607BD6266CE18E0056D39E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47607BD5266CE18E0056D39E /* Assets.xcassets */; };
 		47607BD9266CE18E0056D39E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47607BD7266CE18E0056D39E /* LaunchScreen.storyboard */; };
 		47607BE4266CF5A50056D39E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47607BE3266CF5A50056D39E /* ItemTableViewCell.swift */; };
+<<<<<<< HEAD
 		47607CA9267084850056D39E /* CheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47607CA8267084850056D39E /* CheckItem.swift */; };
+=======
+		47607BE6266CF6A00056D39E /* CheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47607BE5266CF6A00056D39E /* CheckItem.swift */; };
+>>>>>>> 7cbbc951743d1c7b3e0954e2acaa40c06aace328
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +34,11 @@
 		47607BD8266CE18E0056D39E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47607BDA266CE18E0056D39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47607BE3266CF5A50056D39E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		47607CA8267084850056D39E /* CheckItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckItem.swift; sourceTree = "<group>"; };
+=======
+		47607BE5266CF6A00056D39E /* CheckItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckItem.swift; sourceTree = "<group>"; };
+>>>>>>> 7cbbc951743d1c7b3e0954e2acaa40c06aace328
 		A25A64DF36E6729046BA3839 /* Pods-Kadai13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai13.debug.xcconfig"; path = "Target Support Files/Pods-Kadai13/Pods-Kadai13.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +108,11 @@
 		47607BE0266CF53E0056D39E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				47607CA8267084850056D39E /* CheckItem.swift */,
+=======
+				47607BE5266CF6A00056D39E /* CheckItem.swift */,
+>>>>>>> 7cbbc951743d1c7b3e0954e2acaa40c06aace328
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +252,10 @@
 				47607BD1266CE18E0056D39E /* ViewController.swift in Sources */,
 				47607BCD266CE18E0056D39E /* AppDelegate.swift in Sources */,
 				47607BCF266CE18E0056D39E /* SceneDelegate.swift in Sources */,
+<<<<<<< HEAD
+=======
+				47607BE6266CF6A00056D39E /* CheckItem.swift in Sources */,
+>>>>>>> 7cbbc951743d1c7b3e0954e2acaa40c06aace328
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

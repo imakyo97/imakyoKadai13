@@ -42,7 +42,11 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+<<<<<<< HEAD
                                             <outlet property="checkImageView" destination="wHj-Ff-hKi" id="gx2-ho-1oh"/>
+=======
+                                            <outlet property="checkImageView" destination="wHj-Ff-hKi" id="1Jg-RU-SPB"/>
+>>>>>>> 7cbbc951743d1c7b3e0954e2acaa40c06aace328
                                             <outlet property="fruitsLabel" destination="KPY-rt-Amd" id="GWd-sk-aIT"/>
                                         </connections>
                                     </tableViewCell>
