@@ -9,15 +9,11 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var cheakImage: UIImageView!
-    @IBOutlet weak var fruitsLabel: UILabel!
+    @IBOutlet private weak var checkImageView: UIImageView!
+    @IBOutlet private weak var fruitsLabel: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    func configure(checkItem: CheckItem) {
+        checkImageView.image = checkItem.isChecked ? UIImage(named: "CheckMark") : nil
+        fruitsLabel.text = checkItem.name
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
-
 }

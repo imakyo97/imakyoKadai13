@@ -42,7 +42,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="cheakImage" destination="wHj-Ff-hKi" id="2iQ-Vn-faZ"/>
+                                            <outlet property="checkImageView" destination="wHj-Ff-hKi" id="gx2-ho-1oh"/>
                                             <outlet property="fruitsLabel" destination="KPY-rt-Amd" id="GWd-sk-aIT"/>
                                         </connections>
                                     </tableViewCell>

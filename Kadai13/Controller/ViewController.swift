@@ -9,8 +9,14 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource {
     
-    private let itemCell = ItemCell()
     @IBOutlet private weak var tableView: UITableView!
+    
+    private let checkItems: [CheckItem] = [
+        CheckItem(name: "りんご", isChecked: false),
+        CheckItem(name: "みかん", isChecked: true),
+        CheckItem(name: "バナナ", isChecked: false),
+        CheckItem(name: "パイナップル", isChecked: true)
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,22 +25,14 @@ class ViewController: UIViewController,UITableViewDataSource {
     
     // MARK: - UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return itemCell.Items.count
-    }
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        checkItems.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // swiftlint:disable:next force_cast
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! ItemTableViewCell
-        cell.fruitsLabel.text = itemCell.Items[indexPath.row][itemCell.fruitsKey] as? String
-        cell.cheakImage.image = nil
-        if itemCell.Items[indexPath.row][itemCell.imageKey] as! Bool {
-            cell.cheakImage.image = UIImage(named: "CheakMark")
-        }
+        cell.configure(checkItem: checkItems[indexPath.row])
         return cell
     }
-    
 }
 
