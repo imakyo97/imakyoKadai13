@@ -3,15 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1806C6CEA32A2F2023E2F9BE /* Pods_Kadai13_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56263148C5DAA78BA8181C5 /* Pods_Kadai13_MVVM.framework */; };
 		4786DE2126D4A26D00409285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE2026D4A26D00409285 /* AppDelegate.swift */; };
 		4786DE2326D4A26D00409285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE2226D4A26D00409285 /* SceneDelegate.swift */; };
-		4786DE2526D4A26D00409285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE2426D4A26D00409285 /* ViewController.swift */; };
-		4786DE2826D4A26D00409285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4786DE2626D4A26D00409285 /* Main.storyboard */; };
 		4786DE2A26D4A27500409285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4786DE2926D4A27500409285 /* Assets.xcassets */; };
 		4786DE2D26D4A27500409285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4786DE2B26D4A27500409285 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -21,8 +19,6 @@
 		4786DE1D26D4A26D00409285 /* Kadai13-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai13-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4786DE2026D4A26D00409285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4786DE2226D4A26D00409285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4786DE2426D4A26D00409285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4786DE2726D4A26D00409285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4786DE2926D4A27500409285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4786DE2C26D4A27500409285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4786DE2E26D4A27500409285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,8 +61,6 @@
 			children = (
 				4786DE2026D4A26D00409285 /* AppDelegate.swift */,
 				4786DE2226D4A26D00409285 /* SceneDelegate.swift */,
-				4786DE2426D4A26D00409285 /* ViewController.swift */,
-				4786DE2626D4A26D00409285 /* Main.storyboard */,
 				4786DE2926D4A27500409285 /* Assets.xcassets */,
 				4786DE2B26D4A27500409285 /* LaunchScreen.storyboard */,
 				4786DE2E26D4A27500409285 /* Info.plist */,
@@ -80,7 +74,6 @@
 				E0DA021817D4672F5FE149AC /* Pods-Kadai13-MVVM.debug.xcconfig */,
 				07C374E0B83F9758A3C60141 /* Pods-Kadai13-MVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,7 +146,6 @@
 			files = (
 				4786DE2D26D4A27500409285 /* LaunchScreen.storyboard in Resources */,
 				4786DE2A26D4A27500409285 /* Assets.xcassets in Resources */,
-				4786DE2826D4A26D00409285 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4786DE2526D4A26D00409285 /* ViewController.swift in Sources */,
 				4786DE2126D4A26D00409285 /* AppDelegate.swift in Sources */,
 				4786DE2326D4A26D00409285 /* SceneDelegate.swift in Sources */,
 			);
@@ -215,14 +206,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4786DE2626D4A26D00409285 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4786DE2726D4A26D00409285 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4786DE2B26D4A27500409285 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
