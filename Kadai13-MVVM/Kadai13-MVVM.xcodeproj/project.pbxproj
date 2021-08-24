@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1806C6CEA32A2F2023E2F9BE /* Pods_Kadai13_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56263148C5DAA78BA8181C5 /* Pods_Kadai13_MVVM.framework */; };
 		4786DE2126D4A26D00409285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE2026D4A26D00409285 /* AppDelegate.swift */; };
 		4786DE2326D4A26D00409285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE2226D4A26D00409285 /* SceneDelegate.swift */; };
 		4786DE2526D4A26D00409285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE2426D4A26D00409285 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07C374E0B83F9758A3C60141 /* Pods-Kadai13-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai13-MVVM.release.xcconfig"; path = "Target Support Files/Pods-Kadai13-MVVM/Pods-Kadai13-MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		4786DE1D26D4A26D00409285 /* Kadai13-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai13-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4786DE2026D4A26D00409285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4786DE2226D4A26D00409285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		4786DE2926D4A27500409285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4786DE2C26D4A27500409285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4786DE2E26D4A27500409285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56263148C5DAA78BA8181C5 /* Pods_Kadai13_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai13_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DA021817D4672F5FE149AC /* Pods-Kadai13-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai13-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-Kadai13-MVVM/Pods-Kadai13-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1806C6CEA32A2F2023E2F9BE /* Pods_Kadai13_MVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				4786DE1F26D4A26D00409285 /* Kadai13-MVVM */,
 				4786DE1E26D4A26D00409285 /* Products */,
+				B2FB70F946270E463541C672 /* Pods */,
+				BC55FF540630CC1AFE87E878 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = "Kadai13-MVVM";
 			sourceTree = "<group>";
 		};
+		B2FB70F946270E463541C672 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0DA021817D4672F5FE149AC /* Pods-Kadai13-MVVM.debug.xcconfig */,
+				07C374E0B83F9758A3C60141 /* Pods-Kadai13-MVVM.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC55FF540630CC1AFE87E878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D56263148C5DAA78BA8181C5 /* Pods_Kadai13_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4786DE3126D4A27500409285 /* Build configuration list for PBXNativeTarget "Kadai13-MVVM" */;
 			buildPhases = (
+				5703F068005825615099E23E /* [CP] Check Pods Manifest.lock */,
 				4786DE1926D4A26D00409285 /* Sources */,
 				4786DE1A26D4A26D00409285 /* Frameworks */,
 				4786DE1B26D4A26D00409285 /* Resources */,
+				FC54A422739EBD6ACDB70F33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5703F068005825615099E23E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kadai13-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC54A422739EBD6ACDB70F33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai13-MVVM/Pods-Kadai13-MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kadai13-MVVM/Pods-Kadai13-MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kadai13-MVVM/Pods-Kadai13-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4786DE1926D4A26D00409285 /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		4786DE3226D4A27500409285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DA021817D4672F5FE149AC /* Pods-Kadai13-MVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		4786DE3326D4A27500409285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C374E0B83F9758A3C60141 /* Pods-Kadai13-MVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
