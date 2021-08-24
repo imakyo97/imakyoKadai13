@@ -12,6 +12,8 @@
 		4786DE2326D4A26D00409285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE2226D4A26D00409285 /* SceneDelegate.swift */; };
 		4786DE2A26D4A27500409285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4786DE2926D4A27500409285 /* Assets.xcassets */; };
 		4786DE2D26D4A27500409285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4786DE2B26D4A27500409285 /* LaunchScreen.storyboard */; };
+		4786DE3626D4A43900409285 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4786DE3426D4A43900409285 /* MainViewController.swift */; };
+		4786DE3726D4A43900409285 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4786DE3526D4A43900409285 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4786DE2926D4A27500409285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4786DE2C26D4A27500409285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4786DE2E26D4A27500409285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4786DE3426D4A43900409285 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4786DE3526D4A43900409285 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		D56263148C5DAA78BA8181C5 /* Pods_Kadai13_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kadai13_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DA021817D4672F5FE149AC /* Pods-Kadai13-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kadai13-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-Kadai13-MVVM/Pods-Kadai13-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +65,8 @@
 			children = (
 				4786DE2026D4A26D00409285 /* AppDelegate.swift */,
 				4786DE2226D4A26D00409285 /* SceneDelegate.swift */,
+				4786DE3426D4A43900409285 /* MainViewController.swift */,
+				4786DE3526D4A43900409285 /* MainViewController.xib */,
 				4786DE2926D4A27500409285 /* Assets.xcassets */,
 				4786DE2B26D4A27500409285 /* LaunchScreen.storyboard */,
 				4786DE2E26D4A27500409285 /* Info.plist */,
@@ -145,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4786DE2D26D4A27500409285 /* LaunchScreen.storyboard in Resources */,
+				4786DE3726D4A43900409285 /* MainViewController.xib in Resources */,
 				4786DE2A26D4A27500409285 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4786DE3626D4A43900409285 /* MainViewController.swift in Sources */,
 				4786DE2126D4A26D00409285 /* AppDelegate.swift in Sources */,
 				4786DE2326D4A26D00409285 /* SceneDelegate.swift in Sources */,
 			);
